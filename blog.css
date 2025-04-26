@@ -18,3 +18,27 @@ body{
 .rename{
     display: flex;
 }
+
+@media screen and (max-width760px) {
+    
+    #bornACrimeBlog{
+        height: 60vh;
+        width: 40vh;
+    }
+    body{
+        margin: 5vh 20vh;
+        background-color: rgb(158, 158, 200);
+        border: 2px solid;
+        
+    }
+    .body{
+        background-color: brown;
+        padding: 50px;
+        box-shadow:5px 5px 5px 5px rgb(197, 196, 196), -5px -5px 5px 5px rgb(197, 196, 196);
+        
+    }
+    
+    .rename{
+        display: block;
+    }
+}
